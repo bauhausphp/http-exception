@@ -1,0 +1,46 @@
+{
+  "name": "bauhaus/http-exception",
+  "description": "HTTP exception",
+
+  "type": "library",
+  "license": "MIT",
+
+  "keywords": [
+    "bauhaus",
+    "http exception",
+    "http"
+  ],
+
+  "authors": [
+    {
+      "name": "Felipe Martins",
+      "homepage": "https://blog.fefas.net"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/bauhausphp/http-exception/issues",
+    "source": "https://github.com/bauhausphp/http-exception"
+  },
+
+  "require": {
+    "php": ">=7.1"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Bauhaus\\Http\\Exception\\": "src/"
+    }
+  },
+
+  "require-dev": {
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Bauhaus\\Http\\Exception\\": [
+        "tests/unit/"
+      ]
+    }
+  }
+}
